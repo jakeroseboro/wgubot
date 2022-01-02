@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	    
+<!-- Quiz -->
+
+<category>
+    <pattern>QUIZ</pattern>
+    <template>
+        <delay>1</delay>
+        Welcome to the Career Path Quiz!📝<break/>
+        You will be asked a series of questions about your personal preferences
+        and strengths in order to determine a career that best suits you! <break/>
+        Are you ready to begin?
+        
+        <button>
+            <text>Yes!</text>
+            <postback>YES</postback>
+        </button>
+        
+        <button>
+            <text>No, return to main menu</text>
+            <postback>MAIN</postback>
+        </button>
+        
+        </template>
+</category>
+
+<!-- Begin quiz -->
+
+<category>
+    <pattern>YES</pattern>
+    <template>
+        
+        QUIZ BEGINNING: <split/>
+        Do you enjoy writing code?
+        
+        <button>
+            <text>Yes</text>
+            <postback>YESCODE</postback>
+        </button>
+        
+        <button>
+            <text>No</text>
+            <postback>NOCODE</postback>
+        </button>
+        
+    </template>
+</category>
+
+
+<!-- Likes to code -->
+<category>
+    <pattern>YESCODE</pattern>
+    <template>
+        Which of these best describes you?
+        
+        <button>
+            <text>Creative</text>
+            <postback>CREATIVE</postback>
+        </button>
+        
+         <button>
+            <text>Analytic</text>
+            <postback>DATA SCEINTIST</postback>
+        </button>
+    </template>
+</category>
+
+<!-- Creative type -->
+<category>
+    <pattern>CREATIVE</pattern>
+    <template>
+       Which of these would you rather do?
+        
+        <button>
+            <text>Design apps, websites, or software</text>
+            <postback>SOFTWARE DEVELOPER</postback>
+        </button>
+        
+         <button>
+            <text>Design video games</text>
+            <postback>GAME DESIGNER</postback>
+        </button>
+    </template>
+</category>
+
+<!--Does not enjoy code -->
+<category>
+    <pattern>NOCODE</pattern>
+    <template>
+       Which of these best describes you?
+        
+        <button>
+            <text>Pays close attention to detail</text>
+            <postback>DB ADMIN</postback>
+        </button>
+        
+         <button>
+            <text>Enjoys communication with others</text>
+            <postback>IT MAN</postback>
+        </button>
+    </template>
+</category>
+</aiml>

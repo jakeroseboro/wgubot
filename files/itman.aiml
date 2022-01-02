@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+    <pattern>IT MAN</pattern>
+    <template>
+       YOU SHOULD BE A IT MANAGER: <break/>
+       IT managers ensure that their team or department operates efficiently, effectively and inline with organizational goals.
+        <button>
+            <text>Learn More</text>
+            <url>https://www.itcareerfinder.com/it-careers/it-manager.html</url>
+        </button>
+        
+         <button>
+            <text>Return to main menu</text>
+            <postback>MAIN</postback>
+        </button>
+    </template>
+</category>
+</aiml>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!-- Options -->
+
+<category>
+    <pattern>OPTIONS</pattern>
+    <template>
+        <delay>1</delay>
+        Click on the links below for more information about each job:
+        
+        <link>
+            <text>👩‍💻 Software Developer</text>
+            <url>https://www.computerscience.org/careers/software-developer/</url>
+        </link>
+        
+        <link>
+            <text>📊 Data Scientist</text>
+            <url>https://www.computerscience.org/careers/data-science/</url>
+        </link>
+        
+        <link>
+            <text>📂 Database Administrator</text>
+            <url>https://www.computerscience.org/careers/database-administrator/</url>
+        </link>
+        
+        <link>
+            <text>🕹 Video Game Developer</text>
+            <url>https://study.com/articles/Game_Developer_Job_Description_Duties_and_Requirements.html</url>
+        </link>
+        
+        <link>
+            <text>👨‍💼 IT Manager</text>
+            <url>https://www.itcareerfinder.com/it-careers/it-manager.html</url>
+        </link>
+        
+        <button>
+            <text>Return to main menu</text>
+            <postback>MAIN</postback>
+        </button>
+    </template>
+</category>
+</aiml>

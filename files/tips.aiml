@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+<!-- tips -->
+
+<category>
+    <pattern>TIPS</pattern>
+    <template>
+        <delay>1</delay>
+        Click on the links below for helpful tips:
+        
+        <link>
+            <text>❗️Practice For IT Professionals</text>
+            <url>https://tryhackme.com/</url>
+        </link>
+        <link>
+            <text>❓Common Interview Questions</text>
+            <url>https://www.careermatch.com/job-prep/interviews/top-10-computer-science-interview-questions-and-answers/</url>
+        </link>
+        
+         <link>
+            <text>❗️Resume and Interview Tips</text>
+            <url>https://www.cs.columbia.edu/career/student-resources/resume-interview/</url>
+        </link>
+        
+        <link>
+            <text>❓Common Coding Questions</text>
+            <url>https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/</url>
+        </link>
+        
+        <link>
+            <text>❗️Practice Problems For Coding Interviews</text>
+            <url>https://leetcode.com/problemset/all/</url>
+        </link>
+        
+        
+        <button>
+            <text>Return to main menu</text>
+            <postback>MAIN</postback>
+        </button>
+        
+    </template>
+</category>
+
+</aiml>

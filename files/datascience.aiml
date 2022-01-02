@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+    <pattern>DATA SCEINTIST</pattern>
+    <template>
+       YOU SHOULD BE A DATA SCIENTIST: <break/>
+        Data scientists help companies make data-driven decisions by creating mathematical models to address real-world problems.
+        <button>
+            <text>Learn More</text>
+            <url>https://computerscience.org/careers/data-science/</url>
+        </button>
+        
+         <button>
+            <text>Return to main menu</text>
+            <postback>MAIN</postback>
+        </button>
+    </template>
+</category>
+</aiml>

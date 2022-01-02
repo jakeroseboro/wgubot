@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+    <pattern>SOFTWARE DEVELOPER</pattern>
+    <template>
+       YOU SHOULD BE A SOFTWARE DEVELOPER: <break/>
+        Software developers document and test client software and write code to create applications that either stand alone or boost access to servers and services.
+        <button>
+            <text>Learn More</text>
+            <url>https://www.computerscience.org/careers/software-developer/</url>
+        </button>
+        
+         <button>
+            <text>Return to main menu</text>
+            <postback>MAIN</postback>
+        </button>
+    </template>
+</category>
+</aiml>

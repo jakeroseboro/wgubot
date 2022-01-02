@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+    <pattern>DB ADMIN</pattern>
+    <template>
+       YOU SHOULD BE A DATABASE ADMIN: <break/>
+       Database administrators maintain and protect sensitive information and provide access to important datasets for companies, institutions, and government bodies.
+        <button>
+            <text>Learn More</text>
+            <url>https://www.computerscience.org/careers/database-administrator/</url>
+        </button>
+        
+         <button>
+            <text>Return to main menu</text>
+            <postback>MAIN</postback>
+        </button>
+    </template>
+</category>
+</aiml>

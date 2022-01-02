@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+    <pattern>GAME DESIGNER</pattern>
+    <template>
+       YOU SHOULD BE A GAME DEVELOPER: <break/>
+       Video game developers usually work in teams to help make an idea for a video game come to life. 
+        <button>
+            <text>Learn More</text>
+            <url>https://study.com/articles/Game_Developer_Job_Description_Duties_and_Requirements.html</url>
+        </button>
+        
+         <button>
+            <text>Return to main menu</text>
+            <postback>MAIN</postback>
+        </button>
+    </template>
+</category>
+</aiml>
